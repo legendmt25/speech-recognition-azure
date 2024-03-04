@@ -7,6 +7,15 @@
 ```
 **Update the .env file**
 
+### Setup arduino
+    Open Arduino Uno
+    Tools > Manage Libraries
+    Search "firmata"
+    Install 2.5.9
+
+    Upload StandardFirmata.ino
+
+
 ## Creating speech service on azure portal
 Create speech service by clicking on the link:
 https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/SpeechServices
