@@ -1,0 +1,4 @@
+SpeechRecognition
+pyfirmata
+pyaudio
+botocore
