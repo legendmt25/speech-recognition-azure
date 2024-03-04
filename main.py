@@ -10,9 +10,8 @@ microphone = speech_recognition.Microphone(device_index=1)
 def getCommand(audio: AudioData) -> tuple[str, float]:
   return recognizer.recognize_azure(audio, key=env.AZURE_SPEECH_RECOGNITION_KEY, location=env.AZURE_SPEECH_RECOGNITION_LOCATION);
 
-port = "COM6"
 servoPin = 10
-board = Arduino(port)
+board = Arduino(env.ARDUINO_PORT)
 
 board.digital[servoPin].mode = SERVO
 
